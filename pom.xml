@@ -8,6 +8,15 @@
     <artifactId>CucumberBasics</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+	<properties>
+	    <maven.compiler.source>1.6</maven.compiler.source>
+	    <maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
+
+
+
+
+
     <build>
         <plugins>
             <plugin>
@@ -113,11 +122,5 @@
             <version>4.0.9</version>
         </dependency>
 
-	<properties>
-	    <maven.compiler.source>1.6</maven.compiler.source>
-	    <maven.compiler.target>1.6</maven.compiler.target>
-	</properties>
-
-
-    </dependencies>
+</dependencies>
 </project>
